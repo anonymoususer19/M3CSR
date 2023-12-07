@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 class Logger():
-    def __init__(self, filename, is_debug, path='/home/huangrui06/.jupyter/multi_modal/M3CSR_final/logs/'):
+    def __init__(self, filename, is_debug, path='/home/chengaode/multi_modal/M3CSR/logs/'):
         self.filename = filename
         self.path = path
         self.log_ = not is_debug
